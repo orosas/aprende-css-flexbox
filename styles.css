@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+.flex-container {
+    display: flex;
+    /* Nota: flex-direction y flex-wrap se pueden combinar
+            en un sola línea con flex-flow */
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+    /* Nota: Justifica el espacio entre los componentes */
+    /* justify-content: center; */
+    /* Nota: Alinea de manera vertical los elemento
+    align-items: baseline; */
+    /* Nota: align-content alínea de manera vertical las líneas del contenedor flex */
+    /* align-content: flex-end; */
+    height:30rem;
+    background: purple;
+    padding: 0.80rem;
+    border: 2px solid white;
+}
+
+.flex-container div {
+    background: gainsboro;
+    width: 8rem;
+    margin: 0.8rem;
+    text-align: center;
+    line-height: 6rem;
+    font-size: 1.9rem;
+    border: 2px solid black;
+}
+
+/* Continuar video
+Minuto 4:40
+https://youtu.be/-nVJwYKx6H8 */
